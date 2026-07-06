@@ -1,22 +1,19 @@
 ### Обо мне
 
-Инженер по инфраструктуре и автоматизации, двигаюсь в сторону SRE. Проектирую, контейнеризирую и веду self-managed системы полным циклом — виртуализация, сеть, хранилища/бэкапы, мониторинг и безопасность.
-
-- Проектирование reverse-proxy / сетевой маршрутизации с несколькими выходами и failover
-- Виртуализация и бэкапы на Proxmox VE + Proxmox Backup Server (ZFS RAID, S3-хранилище)
+DevOps-инженер, двигаюсь в сторону SRE. Проектирую, контейнеризирую и веду self-managed системы полным циклом — виртуализация, сеть, хранилища/бэкапы, мониторинг и безопасность.
 
 ### Стек
 
 - **Языки**: Python, Rust, Bash, C++
-- **Виртуализация и бэкапы**: Proxmox VE, Proxmox Backup Server, ZFS RAID, Garage S3
-- **Контейнеры**: Docker, Docker Compose, Portainer
+- **Виртуализация и бэкапы**: Proxmox VE, Proxmox Backup Server, rclone, ZFS RAID, Garage S3, LXC
+- **Контейнеры**: Docker, Docker Compose
 - **IaC / Config Management**: Ansible, Terraform
-- **Reverse Proxy**: Traefik, Nginx Proxy Manager, Nginx
-- **Сеть / VPN**: Xray, VLESS, SOCKS5, WebSocket-проксирование, OpenWrt
+- **Reverse Proxy**: Traefik, Nginx, Nginx Proxy Manager, Apache
+- **Network Engineering**: обход DPI (Xray/VLESS/REALITY), SOCKS5 и WebSocket-проксирование, роутинг на OpenWrt
 - **Observability**: Prometheus, Grafana, Grafana Alloy, Loki, Promtail, OpenTelemetry, InfluxDB, Telegraf, Elasticsearch, OpenSearch
-- **Security**: CrowdSec, Gotify, Vaultwarden
-- **Telegram-боты**: бот-загрузчик медиа, бот авто-обновления профиля
-- **Мессенджер-инфра**: деплой Matrix-сервера, мосты в другие мессенджеры
+- **Security**: CrowdSec, nftables/iptables, UFW, Fail2ban, Cloudflare (DNS/WAF), Authelia/Authentik (SSO)
+- **Telegram-боты**: бот-загрузчик медиа (all-downloader), бот авто-обновления профиля (Telegram-Profile-AutoUpdate)
+- **Мессенджер-инфра**: деплой Matrix-сервера (звонки Element Call/LiveKit, гостевые конференции, модерация, хелпдеск), 6 мостов в другие мессенджеры
 - **AI/LLM**: AI-ассистент в Matrix (распознавание фото, перевод), свой LLM gateway, настройка AI-агентов
 - **CI/CD**: Git, GitHub, GitHub Actions, GitLab
 
@@ -28,19 +25,15 @@
 
 ### Проекты
 
-**Matrix-Docker-Ansible-Xray** — готовый семейный/командный Matrix-мессенджер на базе spantaleev/matrix-docker-ansible-deploy: звонки/видео (Element Call + LiveKit), гостевые конференции, AI-ассистент с распознаванием фото, переводчик, 6 мостов в другие мессенджеры, модерация, хелпдеск, опциональный обход блокировок через Xray (VLESS/REALITY). Разворачивается на одном VPS, домашнем Proxmox или за существующим reverse-proxy.
-
-**tg-ws-proxy-router** — форк Flowseal/tg-ws-proxy: сохраняет оригинальный MTProto-мост через Cloudflare WebSocket (фрагментация TLS ClientHello для обхода DPI), добавляет SOCKS5-вход (тянет и данные, и звонки), движок маршрутизации для failover на несколько выходов, два MTProto-входа (обычный + Fake TLS) и интерактивную TUI-панель для headless-запуска на сервере.
-
-**crowdsec-gotify-aggregator** — HTTP-релей на Rust между CrowdSec и Gotify: группирует алерты по IP в скользящем окне и шлёт одно сводное уведомление вместо отдельного на каждый сработавший сценарий.
-
-**all-downloader** — self-hosted Telegram-бот, скачивает видео/аудио/фото-посты в макс. качестве через свой Bot API сервер (файлы до 2 ГБ), уводит заблокированные платформы через VLESS-прокси в обход DPI.
-
-**ytm-nd** — синхронизирует публичный плейлист YouTube Music в библиотеку Navidrome по расписанию: полный список треков через YouTube Data API v3, скачивание без cookies через yt-dlp клиент android_vr, возрастные треки — через yt-dlp-ejs + deno, всё собирается в один альбом с тегами/обложкой и отдаётся файлами плюс .m3u плейлистом.
-
-**Telegram-Profile-AutoUpdate** — скрипт на Pyrogram, обновляет имя и био Telegram-аккаунта каждые 60 секунд: время в разных городах, курсы крипты (CoinGecko), курсы валют ЦБ РФ, обработка FloodWait/ошибок.
-
-**Extenguished-Destinies** — текстовое приключение в стиле Dark Souls на C++17: подземелья, NPC, инвентарь и прокачка, костры-чекпоинты, сохранение/загрузка. В разработке.
+| Проект | Описание | Статус |
+|---|---|---|
+| Matrix-Docker-Ansible-Xray | Готовый семейный/командный Matrix-мессенджер на базе spantaleev/matrix-docker-ansible-deploy: звонки/видео (Element Call + LiveKit), гостевые конференции, AI-ассистент с распознаванием фото, переводчик, 6 мостов в другие мессенджеры, модерация, хелпдеск, опциональный обход блокировок через Xray (VLESS/REALITY). | Активен |
+| tg-ws-proxy-router | Форк Flowseal/tg-ws-proxy: сохраняет оригинальный MTProto-мост через Cloudflare WebSocket, добавляет SOCKS5-вход (данные + звонки), движок маршрутизации с failover на несколько выходов, два MTProto-входа (обычный + Fake TLS), интерактивную TUI-панель для headless-запуска. | Активен |
+| crowdsec-gotify-aggregator | HTTP-релей на Rust между CrowdSec и Gotify: группирует алерты по IP в скользящем окне, шлёт одно сводное уведомление вместо отдельного на каждый сценарий. | Активен |
+| all-downloader | Self-hosted Telegram-бот, скачивает видео/аудио/фото в макс. качестве через свой Bot API сервер (файлы до 2 ГБ), уводит заблокированные платформы через VLESS-прокси в обход DPI. | Активен |
+| ytm-nd | Синхронизирует публичный плейлист YouTube Music в Navidrome по расписанию: полный список треков через YouTube Data API v3, скачивание без cookies через yt-dlp (android_vr), возрастные треки — через yt-dlp-ejs + deno, всё в один альбом, отдаётся файлами и .m3u плейлистом. | Активен |
+| Telegram-Profile-AutoUpdate | Скрипт на Pyrogram, обновляет имя и био Telegram-аккаунта каждые 60 секунд: время в городах, курсы крипты, курсы валют, обработка FloodWait/ошибок. | Активен |
+| Extenguished-Destinies | Текстовое приключение в стиле Dark Souls на C++17: подземелья, NPC, инвентарь и прокачка, костры-чекпоинты, сохранение/загрузка. | Заброшен |
 
 ---
 
