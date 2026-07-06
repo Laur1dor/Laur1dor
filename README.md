@@ -10,16 +10,6 @@
 
 </div>
 
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-
-</div>
-
 ### About
 
 DevOps / SRE engineer. I design, containerize, and operate self-managed systems end-to-end — virtualization, networking, storage/backup, monitoring and security.
@@ -27,8 +17,6 @@ DevOps / SRE engineer. I design, containerize, and operate self-managed systems 
 ---
 
 ### Tech Stack
-
-<img src="https://skillicons.dev/icons?i=linux,docker,ansible,terraform,bash,python,rust,cpp,git,github,githubactions,gitlab,nginx,grafana,prometheus,elasticsearch,vscode,aws,gcp,cloudflare" />
 
 | Category | Tools |
 |---|---|
@@ -46,13 +34,7 @@ DevOps / SRE engineer. I design, containerize, and operate self-managed systems 
 | **AI/LLM** | Dynamic Model Routing (task-based and token-exhaustion-based swapping), AI Agent Configuration (MCP), RAG Setup (Paperless-ngx) |
 | **CI/CD** | Git, GitHub, GitHub Actions, GitLab |
 
----
-
-### Courses
-
-| Course | Status | Started | Completed |
-|---|---|---|---|
-| [Stepik — Course 1547](https://stepik.org/course/1547/) | ✅ Completed | March 2024 | April 16, 2024 |
+<img src="https://skillicons.dev/icons?i=linux,docker,ansible,terraform,bash,python,rust,cpp,git,github,githubactions,gitlab,nginx,grafana,prometheus,elasticsearch,vscode,aws,gcp,cloudflare" />
 
 ---
 
@@ -67,3 +49,23 @@ DevOps / SRE engineer. I design, containerize, and operate self-managed systems 
 | [ytm-nd](https://github.com/Laur1dor/ytm-nd) | Syncs a public YouTube Music playlist into a Navidrome library on a schedule: full playlist listing via YouTube Data API v3, cookie-less audio downloads via yt-dlp's android_vr client, age-restricted tracks handled via yt-dlp-ejs + deno, packaged into one album and delivered as files plus an .m3u playlist. | Active |
 | [Telegram-Profile-AutoUpdate](https://github.com/Laur1dor/Telegram-Profile-AutoUpdate) | Pyrogram script that updates a Telegram account's name and bio every 60 seconds with live data: multi-timezone clock, crypto rates, RUB exchange rates, FloodWait/error handling. | Active |
 | [Extenguished-Destinies](https://github.com/Laur1dor/Extenguished-Destinies) | Text-based Dark Souls-style adventure in C++17: dungeon exploration, NPCs, inventory and leveling, bonfire-style checkpoints, save/load. | Abandoned |
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+
+</div>
+
+---
+
+### Courses
+
+| Course | Status | Started | Completed |
+|---|---|---|---|
+| [Stepik — Course 1547](https://stepik.org/course/1547/) | ✅ Completed | March 2024 | April 16, 2024 |
