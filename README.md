@@ -12,27 +12,28 @@
 
 ### About
 
-DevOps engineer, moving toward SRE. I design, containerize, and operate self-managed systems end-to-end — virtualization, networking, storage/backup, monitoring and security.
+DevOps / SRE engineer. I design, containerize, and operate self-managed systems end-to-end — virtualization, networking, storage/backup, monitoring and security.
 
 ---
 
 ### Tech Stack
 
-<img src="https://skillicons.dev/icons?i=linux,docker,ansible,terraform,bash,python,rust,cpp,git,github,githubactions,gitlab,nginx,grafana,prometheus,vscode" />
+<img src="https://skillicons.dev/icons?i=linux,docker,ansible,terraform,bash,python,rust,cpp,git,github,githubactions,gitlab,nginx,grafana,prometheus,elasticsearch,vscode,aws,gcp,cloudflare" />
 
 | Category | Tools |
 |---|---|
 | **Languages** | Python, Rust, Bash, C++ |
-| **Virtualization & Backup** | Proxmox VE, Proxmox Backup Server, rclone, ZFS RAID, Garage S3 storage, LXC |
-| **Containers** | Docker, Docker Compose |
+| **Cloud** | AWS (EC2, S3, Billing), Google Cloud (Compute Engine, Billing) |
+| **Virtualization & Backup** | Proxmox VE, Proxmox Backup Server, rclone, ZFS RAID, Garage S3 storage, AWS S3 |
+| **Containers** | Docker, Docker Compose, LXC |
 | **IaC / Config Management** | Ansible, Terraform |
 | **Reverse Proxy** | Traefik, Nginx, Nginx Proxy Manager, Apache |
-| **Network Engineering** | DPI-resistant tunneling (Xray/VLESS/REALITY), SOCKS5 & WebSocket proxying, OpenWrt-based routing |
+| **Network Engineering** | WireGuard, AmneziaWG, Xray, VLESS, REALITY, Hysteria2, SOCKS5, WebSocket Proxying, OpenWrt Administration |
 | **Observability** | Prometheus, Grafana, Grafana Alloy, Loki, Promtail, OpenTelemetry, InfluxDB, Telegraf, Elasticsearch, OpenSearch |
-| **Security** | CrowdSec, nftables/iptables, UFW, Fail2ban, Cloudflare (DNS/WAF), Authelia/Authentik (SSO) |
+| **Security** | CrowdSec, nftables/iptables, UFW, Fail2ban, Cloudflare, Authelia/Authentik |
 | **Telegram Bots** | [Media Downloader Bot](https://github.com/Laur1dor/all-downloader), [Profile Auto-Updater Bot](https://github.com/Laur1dor/Telegram-Profile-AutoUpdate) |
 | **Messenger Infra** | Matrix Server Deployment (Element Call/LiveKit video calls, guest conferences, moderation, helpdesk), 6 Cross-Messenger Bridges |
-| **AI/LLM** | Matrix AI Assistant (photo recognition, translation), Custom LLM Gateway, AI Agent Configuration |
+| **AI/LLM** | Dynamic Model Routing (task-based and token-exhaustion-based swapping), AI Agent Configuration (MCP), RAG Setup |
 | **CI/CD** | Git, GitHub, GitHub Actions, GitLab |
 
 ---
