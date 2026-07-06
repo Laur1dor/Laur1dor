@@ -10,6 +10,16 @@
 
 </div>
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Laur1dor/Laur1dor/output/github-contribution-grid-snake.svg" width="100%"/>
+</picture>
+
+</div>
+
 ### About
 
 DevOps / SRE engineer. I design, containerize, and operate self-managed systems end-to-end — virtualization, networking, storage/backup, monitoring and security.
@@ -23,17 +33,17 @@ DevOps / SRE engineer. I design, containerize, and operate self-managed systems 
 | Category | Tools |
 |---|---|
 | **Languages** | Python, Rust, Bash, C++ |
-| **Cloud** | AWS (EC2, S3, Billing), Google Cloud (Compute Engine, Billing) |
-| **Virtualization & Backup** | Proxmox VE, Proxmox Backup Server, rclone, ZFS RAID, Garage S3 storage, AWS S3 |
+| **Cloud** | AWS (EC2, S3, Billing), Google Cloud (Compute Engine, Billing), Oracle Cloud |
+| **Virtualization & Backup** | Proxmox VE, Proxmox Backup Server, rclone, ZFS RAID, Garage S3 storage, AWS S3, Backblaze B2 |
 | **Containers** | Docker, Docker Compose, LXC |
 | **IaC / Config Management** | Ansible, Terraform |
 | **Reverse Proxy** | Traefik, Nginx, Nginx Proxy Manager, Apache |
-| **Network Engineering** | WireGuard, AmneziaWG, Xray, VLESS, REALITY, Hysteria2, SOCKS5, WebSocket Proxying, OpenWrt Administration |
+| **Network Engineering** | WireGuard, AmneziaWG, Xray, VLESS, REALITY, Hysteria2, SOCKS5, WebSocket Proxying, Mikrotik RouterOS, OpenWrt Administration, VLAN Segmentation (Proxmox), Router Firewall Configuration |
 | **Observability** | Prometheus, Grafana, Grafana Alloy, Loki, Promtail, OpenTelemetry, InfluxDB, Telegraf, Elasticsearch, OpenSearch |
 | **Security** | CrowdSec, nftables/iptables, UFW, Fail2ban, Cloudflare, Authelia/Authentik |
 | **Telegram Bots** | [Media Downloader Bot](https://github.com/Laur1dor/all-downloader), [Profile Auto-Updater Bot](https://github.com/Laur1dor/Telegram-Profile-AutoUpdate) |
 | **Messenger Infra** | Matrix Server Deployment (Element Call/LiveKit video calls, guest conferences, moderation, helpdesk), 6 Cross-Messenger Bridges |
-| **AI/LLM** | Dynamic Model Routing (task-based and token-exhaustion-based swapping), AI Agent Configuration (MCP), RAG Setup |
+| **AI/LLM** | Dynamic Model Routing (task-based and token-exhaustion-based swapping), AI Agent Configuration (MCP), RAG Setup (Paperless-ngx) |
 | **CI/CD** | Git, GitHub, GitHub Actions, GitLab |
 
 ---
