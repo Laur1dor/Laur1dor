@@ -36,6 +36,8 @@ DevOps / SRE engineer. I design, containerize, and operate self-managed systems 
 
 <img src="https://skillicons.dev/icons?i=linux,docker,ansible,terraform,bash,python,rust,cpp,git,github,githubactions,gitlab,nginx,grafana,prometheus,elasticsearch,vscode,aws,gcp,cloudflare" />
 
+<img src="https://img.shields.io/badge/-oracle-F80000?style=flat-square&logo=oracle&logoColor=white"/> <img src="https://img.shields.io/badge/-proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white"/> <img src="https://img.shields.io/badge/-wireguard-88171A?style=flat-square&logo=wireguard&logoColor=white"/> <img src="https://img.shields.io/badge/-mikrotik-293239?style=flat-square&logo=mikrotik&logoColor=white"/> <img src="https://img.shields.io/badge/-openwrt-00B5E2?style=flat-square&logo=openwrt&logoColor=white"/> <img src="https://img.shields.io/badge/-traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white"/> <img src="https://img.shields.io/badge/-nginx_proxy_manager-F15833?style=flat-square&logo=nginxproxymanager&logoColor=white"/> <img src="https://img.shields.io/badge/-apache-D22128?style=flat-square&logo=apache&logoColor=white"/> <img src="https://img.shields.io/badge/-opentelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white"/> <img src="https://img.shields.io/badge/-influxdb-22ADF6?style=flat-square&logo=influxdb&logoColor=white"/> <img src="https://img.shields.io/badge/-opensearch-005EB8?style=flat-square&logo=opensearch&logoColor=white"/> <img src="https://img.shields.io/badge/-matrix-000000?style=flat-square&logo=matrix&logoColor=white"/>
+
 ---
 
 ### Projects
