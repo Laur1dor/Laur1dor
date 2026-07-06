@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Laur1dor&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=DevOps%20Engineer%20%7C%20Infrastructure%20and%20Automation%20%7C%20Aspiring%20SRE&descAlignY=65&descSize=17&v=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=220&section=header&text=Laur1dor&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=DevOps%20Engineer%20%7C%20Infrastructure%20and%20Automation%20%7C%20Aspiring%20SRE&textAlignY=35&descAlignY=58&descSize=17&v=3" width="100%"/>
 
 </div>
 
@@ -35,19 +35,29 @@ Infrastructure and automation engineer, moving toward SRE. I design, containeriz
 
 ---
 
-### Featured Projects
+### Courses
 
-**[homelab](https://github.com/Laur1dor/homelab)** — Self-managed infrastructure stack: reverse proxy (Traefik, Nginx Proxy Manager), container orchestration (Portainer), secrets management (Vaultwarden), object storage (Garage), ZFS storage, chat/media services (Rocket.Chat, Navidrome), automated image-update monitoring (diun).
+| Course | Status | Dates |
+|---|---|---|
+| [Stepik — Course 1547](https://stepik.org/course/1547/) | ✅ Completed | Started ~March 2024 · Completed April 16, 2024 |
 
-**[Matrix-Docker-Ansible-Xray](https://github.com/Laur1dor/Matrix-Docker-Ansible-Xray)** — Ansible-driven full lifecycle deployment of a Matrix server with Xray-based routing, maubot chat plugins, and an LLM gateway integration.
+---
 
-**[crowdsec-gotify-aggregator](https://github.com/Laur1dor/crowdsec-gotify-aggregator)** — Rust service that deduplicates and aggregates CrowdSec security alerts into single Gotify notifications, cutting alert noise for faster incident response.
+### Projects
 
-**[tg-ws-proxy-router](https://github.com/Laur1dor/tg-ws-proxy-router)** — Proxy routing service (SOCKS5 + WebSocket) with multi-exit failover, TUI control panel, cross-platform deploy scripts (Bash + Batch).
+**[Matrix-Docker-Ansible-Xray](https://github.com/Laur1dor/Matrix-Docker-Ansible-Xray)** — Ready-to-run family/team Matrix messenger deployment via Ansible: calls, AI assistant with photo recognition, translator, GIFs, reminders, moderation, helpdesk, bridges to other messengers.
 
-**[all-downloader](https://github.com/Laur1dor/all-downloader)** — Self-hosted Telegram bot with multi-stage Docker builds (bot / Bot API / Xray proxy separated), VLESS-based routing.
+**[tg-ws-proxy-router](https://github.com/Laur1dor/tg-ws-proxy-router)** — Fork of Flowseal/tg-ws-proxy adding SOCKS5 ingress (with call support) and multi-exit routing with failover on top of the original Cloudflare WS bridge.
 
-**[ytm-nd](https://github.com/Laur1dor/ytm-nd)** — Containerized sync service with scheduled entrypoint automation.
+**[crowdsec-gotify-aggregator](https://github.com/Laur1dor/crowdsec-gotify-aggregator)** — Rust HTTP relay between CrowdSec and Gotify that merges multiple per-scenario ban alerts for one IP into a single notification.
+
+**[all-downloader](https://github.com/Laur1dor/all-downloader)** — Self-hosted Telegram bot downloading video/audio/photo posts in max quality (up to 2GB), routes blocked platforms through a VLESS proxy to bypass DPI restrictions.
+
+**[ytm-nd](https://github.com/Laur1dor/ytm-nd)** — Auto-syncs a public YouTube Music playlist into a Navidrome library on schedule, tagging and packaging tracks into a single album.
+
+**[Telegram-Profile-AutoUpdate](https://github.com/Laur1dor/Telegram-Profile-AutoUpdate)** — Script that updates a Telegram account's name and bio every minute with live data (time zones, crypto/currency rates).
+
+**[Extenguished-Destinies](https://github.com/Laur1dor/Extenguished-Destinies)** — Text-based Dark Souls-style adventure game written in C++ (in development).
 
 ---
 
@@ -59,6 +69,7 @@ Infrastructure and automation engineer, moving toward SRE. I design, containeriz
 
 <div align="center">
 
-📫 <a href="mailto:zauramirov2004@gmail.com">Email</a>
+<a href="https://t.me/Laur1dor"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://void-shell.com"><img src="https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 
 </div>
