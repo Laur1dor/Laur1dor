@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Laur1dor&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=DevOps%20Engineer%20%7C%20Infrastructure%20%26%20Automation%20%7C%20Aspiring%20SRE&descAlignY=65&descSize=17" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=180&section=header&text=Laur1dor&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=DevOps%20Engineer%20%7C%20Infrastructure%20%26%20Automation%20%7C%20Aspiring%20SRE&descAlignY=65&descSize=17&v=2" width="100%"/>
 
 </div>
 
@@ -53,7 +53,6 @@ Infrastructure and automation engineer, moving toward SRE. I design, containeriz
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Laur1dor&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Laur1dor&theme=tokyonight&hide_border=true" height="165"/>
 
 </div>
